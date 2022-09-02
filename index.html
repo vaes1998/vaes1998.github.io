@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>不才才 bucaicai</title>
-    <meta name="description" content="95后青年，后端开发者，略懂前端, 学生，实习，缺乏社会的毒打">
+    <title>短颈鹿</title>
+    <meta name="description" content="一个只会Ctrl+C和Ctrl+v的亏本运营博主。">
     <meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="favicon.ico">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">
     <script type="text/javascript">
         if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
-            alert('朋友，上古浏览器不支持呢~');
+            alert('浏览器不支持');
         }
     </script>
 </head>
@@ -50,7 +50,7 @@
                                     src="https://cdn.jsdelivr.net/gh/laoxuai/assert/images/20200125221102.png"
                                     alt="avatar">
                                 <div class="author-info__name">Bucaicai</div>
-                                <div class="author-info__description">95后青年，后端开发者，略懂前端, <s>学生，实习</s>，缺乏社会的毒打</div>
+                                <div class="author-info__description">一个只会Ctrl+C和Ctrl+v的亏本运营博主<s>学生</s>，啥都不会</div>
                             </div>
                             <div class="card-info-social-icons is-center">
                                 <a class="social-icon" href="https://github.com/laoxuai" target="_blank">
@@ -64,7 +64,7 @@
                         <div class="card-content">
                             <div class="item-headline">
                                 <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                <span>一言</span>
+                                <span>简介</span>
                             </div>
                             <div id="hitokoto"></div>
                         </div>
@@ -73,7 +73,7 @@
                         <div class="card-content">
                             <div class="item-headline">
                                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                                <span>今日诗词</span>
+                                <span>日程</span>
                             </div>
                             <div id="jinrishici-sentence"></div>
                         </div>
@@ -263,12 +263,12 @@
         document.addEventListener('visibilitychange', function () {
             if (document.hidden) {
                 // $('[rel="icon"]').attr('href', "/funny.ico");
-                document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
+                document.title = '校园聚之走了';
                 clearTimeout(titleTime);
             }
             else {
                 $('[rel="icon"]').attr('href', "/favicon.ico");
-                document.title = '(ฅ>ω<*ฅ) 噫又好啦 ~' + OriginTitle;
+                document.title = '校园聚之又来了' + OriginTitle;
                 titleTime = setTimeout(function () {
                     document.title = OriginTitle;
                 }, 2000);
