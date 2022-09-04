@@ -1,4 +1,4 @@
-﻿* {
+* {
     box-sizing: border-box;
 }
 html {
@@ -259,6 +259,15 @@ aside_content .card-info .author-info__description {
     font-size: .8rem;
     color: #4c4948;
     padding: .0rem .7rem;
+}
+.tool .download {
+    padding: 1rem;
+    color:  #0000CC;
+}
+.tiquma{
+    margin-left: .5rem;
+    margin-top: 4px;
+    color: #CC00CC;
 }
 
 /*改上*/
