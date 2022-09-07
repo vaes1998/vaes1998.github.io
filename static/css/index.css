@@ -269,7 +269,10 @@ aside_content .card-info .author-info__description {
     margin-top: 4px;
     color: #CC00CC;
 }
-
+.avatar-imgs{
+    width: 120px;
+    height: 120px
+}
 /*改上*/
 
 #aside_content .card-webinfo .webinfo .webinfo-item {
