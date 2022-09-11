@@ -273,6 +273,9 @@ aside_content .card-info .author-info__description {
     width: 120px;
     height: 120px
 }
+.downloadname{
+    color:  #CC0000;
+}
 /*改上*/
 
 #aside_content .card-webinfo .webinfo .webinfo-item {
